@@ -1,0 +1,60 @@
+
+body{
+	 background-image:url(pics/cool2.jpg);
+	 background-repeat:repeat;
+	 height:100%;
+	 width:100%;
+}
+#container{
+	       height:100%;
+		   width:100%;
+		   text-align:center;
+		   border-radius:10px;
+}
+#card{
+	text-align:center;
+     width:400px;
+     height:920px;
+	 position:absolute;
+	 transform:translateX(-50%);
+	 left:50%;	
+     box-shadow: 0 0 15px gray;	 
+     background-color:white;	 
+}
+#pwd1{
+	  width:70%;
+	  height:30px;
+}
+#pwd2{
+	  width:70%;
+	  height:30px;
+}
+#pwa{
+	 color:red;
+}
+#pwb{
+	 color:red;
+}
+
+form{  
+      margin-left:90px;
+	  text-align:left;
+}
+.box{
+	  width:70%;
+	  height:30px;
+}
+.box:focus{
+	         box-shadow: 0 0 10px gray;
+}
+.button{
+	     background-color:gold;
+		 color:white;
+		 height:35px;
+		 width:70%;
+		 border-style:none;
+}
+.button:hover{
+	           box-shadow: 0 0 15px gray;
+}
+

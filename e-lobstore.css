@@ -1,0 +1,366 @@
+body{
+	 background-image:url(pics/cool2.jpg);
+	 background-repeat:repeat;
+	 height:100%;
+	 width:100%;
+}
+
+#form{
+	  padding-top:15px;
+	  position:relative;
+	  margin-left:25%;
+	  
+}
+#box{
+	 width:70%;
+	 height:40px;
+	 border-radius:8px;
+	 outline:none;
+}
+#box:focus{
+	        outline: none;
+	        border-color: #9ecaed;
+            box-shadow: 0 0 10px red;
+}
+#homebtn:hover{
+	           transform:scale(1.1);
+		       transition:all 0.3s ease-in-out; 
+}
+#search_text{
+	          width:70%;
+	          height:40px;
+	          border-radius:8px; 
+			  outline:none;
+			  display:inline-block;
+}
+#search_text:hover{
+	 outline: none;
+	        border-color: #9ecaed;
+            box-shadow: 0 0 10px red;
+}
+#q{
+	 width:70%;
+	 height:40px;
+	 border-radius:8px;
+	 outline:none;
+}
+#q:focus{
+	        outline: none;
+	        border-color: #9ecaed;
+            box-shadow: 0 0 10px red;
+}
+#select{
+		width:60px;
+		height:38px;
+		border-radius:6px;
+        margin-top:2px;	
+        outline-style:none;	
+        background-color:white;
+	   opacity:.8;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);		
+}
+#button{
+	    height:40px;
+		width:40px;
+		position:absolute;
+		margin-left:-42px;
+}
+#button:hover{
+	           transform:scale(1.1);
+		       transition:all 0.3s ease-in-out; 
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:center;
+}
+ul li{
+	   width:130px;
+	   height:40px;
+	   line-height:20px;
+	   text-align:center;
+	   background-color:white;
+	   opacity:.8;
+	   text-align:center;
+	   border-radius:10px;
+	   line-height:40px;
+	   /*box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);*/	
+}
+ul li a{
+             color:black;
+			 display:block;
+			 font-weight:bold;;
+}
+
+
+
+ul li a:hover{
+			   text-decoration:none;
+}
+
+#list3{
+	         display:none;
+}
+
+/*ul li:hover ul li{
+	              display:block;
+				  transition:0.6s;
+}
+*/
+
+
+ul li ul li:hover{
+	               background-color:red;
+}
+ul li ul li a:hover{
+	               transform:scale(1.1);
+		           transition:all 0.3s ease-in-out; 
+				   color:yellow;
+}
+
+
+
+
+
+#nav2:hover{
+	         text-decoration:none;
+}
+#list2{
+	    width:100%;
+		height:100%;
+		margin-left:200px;
+		margin-top:-40px;
+}
+#list3{
+	    width:100%;
+		height:100%;
+		margin-top:10px;
+}
+
+
+#up{
+     height:15px;
+     width:20px;
+	 margin-left:5px;
+}	
+/* 
+ul li:hover #up{
+     height:15px;
+     width:20px;
+	 margin-left:5px;
+	  transition: 0.40s;
+  -webkit-transition: 0.40s;
+  -moz-transition: 0.40s;
+  -ms-transition: 0.40s;
+  -o-transition: 0.40s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+*/ 
+#username{
+	       height:40px;
+		   width:90%;
+}
+#username:focus{
+	        outline: none;
+	        border-color: #9ecaed;
+            box-shadow: 0 0 20px gray;
+}
+
+#pwd{
+	height:40px;
+	width:90%;
+}
+#pwd:focus{
+	        outline: none;
+	        border-color: #9ecaed;
+            box-shadow: 0 0 20px gray;
+}
+form{
+	  text-align:left;
+	  margin-left:30px;
+}
+
+
+.header{
+	      background-color:#2eb7ed; 
+		  width:100%; 
+		  height:80px;
+		  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+          position:fixed;
+          z-index:1;		  
+}
+
+.logreg{
+	    float:right;
+		font-weight:bold;
+		text-decoration:none;
+		color:white;
+		font-size:18px;
+		padding-right:10px;
+}
+.logreg:hover{
+	          
+			  color:yellow;
+			  transform:scale(1.1);
+			  transition:all 0.3s ease-in-out;
+			  text-decoration:none;
+}
+.logreg1{
+	    float:right;
+		font-weight:bold;
+		text-decoration:none;
+		color:white;
+		font-size:18px;
+		padding-right:10px;
+}
+.cover{
+	     position:fixed;
+	     left:0;
+		 top:0;
+		 height:100%;
+		 width:100%;
+		 background:rgba(25,25,25,0.5);
+		 overflow:auto;
+		 z-index:1;
+		 text-align:center;
+}
+
+.pop{
+	 margin-top:50px;
+	 left:50%;
+	 position:fixed;
+	 transform:translateX(-50%);
+	 z-index:1;
+	 background:rgba(225,225,225,0.8);
+	 text-align:center;
+	 width:400px;
+	 height:700px;
+	 box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+	 border-radius:7px;
+}
+.cancel{
+	     height:40px;
+		 width:85%;
+		 font-size:20px;
+		  background-color:gray;
+		 color:white;
+         outline:none;
+		 border:none;	
+         cursor:pointer;	
+}
+.cancel:hover{
+	            box-shadow: 0 0 30px gray;
+}
+.submit{
+	     height:40px;
+		 width:90%;
+		 font-size:20px;
+		 background-color:gold;
+		 color:white;
+         outline:none;
+		 border:none;	
+         cursor:pointer;	
+}
+.submit:hover{
+	            box-shadow: 0 0 30px gray;
+}
+/*css class for register form*/
+.submit1{
+	     height:40px;
+		 width:100px;
+		 font-size:20px;
+		 box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+         outline:none;
+		 border:none;
+         border-radius:0.5em;	
+         cursor:pointer;	
+}
+.submit1:hover{
+	            background-color:green;
+}
+.cancel1{
+	     height:40px;
+		 width:100px;
+		 font-size:20px;
+		 box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+         outline:none;
+		 border:none;
+         border-radius:0.5em;	
+         cursor:pointer;	
+}
+.cancel1:hover{
+	           background-color:red;
+}
+/*css class for register form end*/
+.choice{
+		 text-decoration:none;
+		 display:inline-block;
+	   width:140px;
+	   height:140px;
+	   line-height:140px;
+		 font-size:20px;
+		 font-weight:bold;
+		 color:black;
+		 text-align:center;
+		 position:relative;
+	   background-color:pink;
+		border-radius:10em;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+		margin:20px;
+
+		
+}
+.choice:hover{ 
+			   text-decoration:none;
+			   color:blue;
+			   transform:scale(1.1);
+			  transition:all 0.3s ease-in-out;
+			  background-color:#FF00FF;
+}	
+		   
+
+.below{
+	width:100%; 
+	height:190px; 
+	text-align:center;
+	padding-top:5px;
+	
+}
+
+.card:hover{
+			   transform:scale(1.1);
+		       transition:all 0.3s ease-in-out; 
+			   background-color:aqua;
+}
+.outer1{
+	     padding-top:80px;
+         text-align:center;
+		 width:100%;
+		 height:100%; 
+}	
+.outer2{
+         width:200px;
+         height:300px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+         margin:10px; 
+         position:relative;	
+         background-color:white;	
+         display:inline-block;		 
+}
+.outer3{
+	width:200px;
+	height:150px;
+	overflow:auto;
+}
+.cart{
+	   height:30px;
+	   width:100px;
+	   background-color:green;
+	   outline:none;
+	   border-style:none;
+}  
